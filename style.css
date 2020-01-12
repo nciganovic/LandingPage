@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.transp-nav{
+    background-color: transparent !important;
+    transition: 0.2s ease-in-out;
+}
+.dark-nav{
+    background-color: black;
+    transition: 0.2s ease-in-out;
+}
+/* First page */
+#first-page{
+    background-image: url("img/bg.jpg"); /* The image used */
+    height: 100vh; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.darker-bg{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.vh-100{
+    height: 100vh;
+}
+.font-40{
+    font-size: 4rem;
+}
+.font-30{
+    font-size: 3rem;
+}
+.font-15{
+    font-size: 1.5rem;
+}
+.font-13{
+    font-size: 1.3rem;
+}
+.font-11{
+    font-size: 1.1rem;
+}
+.font-09{
+    font-size: 0.9rem;
+}
+.line-height{
+    margin: auto;
+}
+.big-pt{
+    padding-top: 25%;
+}
+.blue-btn{
+    background-color: #03cafc;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.blue-btn:hover{
+    text-decoration: none;
+    background-color: #0367fc;
+}
+#get-started{
+    margin-top: 8%;
+}
+
+/* Courses */
+.custom-radius{
+    border-radius: 20px;
+}
+.border-1{
+    border: 1px solid black;
+}
+.box-sh{
+    box-shadow: 5px 5px 5px 0px rgba(14, 67, 165, 0.75);
+}
+.course-img{
+    border-bottom: 1px solid black;
+}
+.card-holder{
+    top: 0px;
+    transition: 0.3s;
+}
+.card-holder:hover{
+    top:-10px;
+    
+}
+.bg-blue{
+    background-color: #03cafcad;
+}
+.dec-none{
+    color: black;
+}
+.dec-none:hover{
+    text-decoration: none;
+    color: black;
+}
+/* Video */
+#video{
+    background-image: url("img/bg-video.jpg"); /* The image used */
+    height: 100vh; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.bg-col-blue{
+    background-color: rgba(32, 84, 180, 0.76)
+}
+.mt-10{
+    margin-top: 10%;
+}
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+.iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* Get started */
+#getstarted{
+    /*background-color: rgb(74, 127, 226);*/
+}
+#price{
+    background-color: rgb(18, 71, 168);
+    color: white;
+}
+.buynow{
+    border-top: 1px solid black;
+    background-color: yellow;
+    margin: 0;
+}
