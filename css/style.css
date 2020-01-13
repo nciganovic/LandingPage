@@ -26,7 +26,7 @@ html {
 }
 /* First page */
 #first-page{
-    background-image: url("img/bg.jpg"); /* The image used */
+    background-image: url("../img/bg.jpg"); /* The image used */
     height: 100vh; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -117,7 +117,7 @@ html {
 }
 /* Video */
 #video{
-    background-image: url("img/bg-video.jpg"); /* The image used */
+    background-image: url("../img/bg-video.jpg"); /* The image used */
     height: 100vh; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
