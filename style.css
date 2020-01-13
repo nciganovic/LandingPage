@@ -3,6 +3,9 @@
     padding: 0;
     font-family: 'Josefin Sans', sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+}
 .rubik{
     font-family: 'Rubik', sans-serif;
 }
@@ -11,8 +14,15 @@
     transition: 0.2s ease-in-out;
 }
 .dark-nav{
-    background-color: black;
+    background-color: #322e2f;
     transition: 0.2s ease-in-out;
+}
+.dark-bg{
+    background-color: #322e2f;
+}
+#nav-get-started:hover{
+    background-color: rgb(54, 158, 243);
+    color: black !important;
 }
 /* First page */
 #first-page{
@@ -56,7 +66,7 @@
     padding-top: 25%;
 }
 .blue-btn{
-    background-color: #03cafc;
+    background-color: #12a4d9;
     padding-left: 6%;
     padding-right: 6%;
     padding-top: 2%;
@@ -65,7 +75,7 @@
 }
 .blue-btn:hover{
     text-decoration: none;
-    background-color: #0367fc;
+    background-color: #12a4d9;
 }
 #get-started{
     margin-top: 8%;
@@ -96,7 +106,7 @@
     
 }
 .bg-blue{
-    background-color: rgb(18, 71, 168);
+    background-color: #1279d9;
 }
 .dec-none{
     color: black;
@@ -133,8 +143,12 @@
     height: 100%;
 }
 /* Get started */
-#getstarted{
-    /*background-color: rgb(74, 127, 226);*/
+#getstarted-card{
+    top: 0;
+    transition: 0.3s;
+}
+#getstarted-card:hover{
+    top: -10px;
 }
 .buynow{
     border-top: 1px solid black;
@@ -153,7 +167,7 @@
     padding-top: 10%;
     padding-bottom: 10%;
     border: 1px solid black;
-    background: linear-gradient(90deg, rgba(15,60,167,1) 0%, rgba(12,11,186,1) 34%, rgba(1,128,255,1) 100%);
+    background-color: rgb(15,60,167);
     color: white; 
     border-radius: 5px;
 }
@@ -168,4 +182,7 @@
     padding-top: 12px;
     padding-bottom: 8px; 
     background-color: blue;
+}
+.box-sh-dark{
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.603);
 }
