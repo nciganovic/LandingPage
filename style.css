@@ -61,6 +61,7 @@
     padding-right: 6%;
     padding-top: 2%;
     padding-bottom: 2%;
+    border-radius: 15px;
 }
 .blue-btn:hover{
     text-decoration: none;
@@ -69,13 +70,16 @@
 #get-started{
     margin-top: 8%;
 }
+.navbar-toggler{
+    border: 0;
+}
 
 /* Courses */
 .custom-radius{
-    border-radius: 20px;
+    border-radius: 15px;
 }
 .border-1{
-    border: 1px solid black;
+    border: 1px solid rgba(139, 139, 139, 0.61);
 }
 .box-sh{
     box-shadow: 5px 5px 5px 0px rgba(14, 67, 165, 0.75);
@@ -131,10 +135,6 @@
 /* Get started */
 #getstarted{
     /*background-color: rgb(74, 127, 226);*/
-}
-#price{
-    background-color: rgb(18, 71, 168);
-    color: white;
 }
 .buynow{
     border-top: 1px solid black;

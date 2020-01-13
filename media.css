@@ -1,0 +1,97 @@
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {  
+    .d-block-xl{
+        display: block;
+    }
+}
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+    .border-0-lg{
+        border: 0px !important;
+    }
+    .big-pt{
+        padding-top: 35%;
+    }
+    .pad-top{
+        padding-top: 10%;
+    }
+    .center-md{
+        text-align: center !important;
+    }
+    #faq-text{
+        margin: auto;
+        width: 75% !important; 
+    }
+    #getstarted-card{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .d-col-lg{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+ 
+ /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (max-width: 768px) {  
+    h1{
+       font-size: 2rem !important;
+    }
+    .big-pt{
+        padding-top: 50%;
+    }
+    .blue-btn{
+        padding-left: 9%;
+        padding-right: 9%;
+        padding-top: 4%;
+        padding-bottom: 4%;
+    }
+    .pad-top{
+        padding-top: 20%;
+    }
+    #video-holder{
+        max-width: 100% !important;
+        flex: 100%;
+    }
+    .h1-desc{
+        font-size: 1.1rem;
+    }
+}
+ 
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {  
+    
+    .play-btn{
+        font-size: 2.5rem;
+    }
+    .play-txt{
+        margin-top: 0px !important;
+    }
+    .play-txt a{
+        font-size: 1rem;
+    }
+    #getstarted-card{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        width: 70% !important;
+    }
+    #price{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 2rem !important;
+    }
+    .w-70-xs{
+       width: 70% !important;
+    }
+}
+@media (max-width: 492px) {  
+    .big-pt{
+        padding-top: 70%;
+    }
+    h1{
+        font-size: 1.5rem !important;
+    }
+}
+
+
